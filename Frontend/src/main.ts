@@ -1,24 +1,28 @@
-import './style.css'
-import typescriptLogo from './typescript.svg'
-import viteLogo from '/vite.svg'
-import { setupCounter } from './counter.ts'
+import "./style.css";
+// import { setupCounter } from './counter.ts'
 
-document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
-  <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="${viteLogo}" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://www.typescriptlang.org/" target="_blank">
-      <img src="${typescriptLogo}" class="logo vanilla" alt="TypeScript logo" />
-    </a>
-    <h1>Vite + TypeScript</h1>
-    <div class="card">
-      <button id="counter" type="button"></button>
+document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
+    <h1 style="text-decoration: underline;">Cross Chain Referal Program</h1>
+    <h2>Buy one,<br> get one for Free</h2>
+    <div class="container">
+      <img src="/buyOne.jpg"/>
+        <button class="astar">Buy NFT on Astar</button>
     </div>
-    <p class="read-the-docs">
-      Click on the Vite and TypeScript logos to learn more
-    </p>
-  </div>
-`
 
-setupCounter(document.querySelector<HTMLButtonElement>('#counter')!)
+    <br>
+
+    <div class="container">
+      <button class="moonbeam">Get 1 Free on Moonbeam</button>
+      <img src="/buyOne.jpg"/>
+    </div>
+
+    <br>
+
+
+    <div class="container">
+      <img src="/wow.jpg"/>
+      <button style="">Wow, <br> explain me whats happening</button>
+    </div>
+`;
+
+// setupCounter(document.querySelector<HTMLButtonElement>('#counter')!)
