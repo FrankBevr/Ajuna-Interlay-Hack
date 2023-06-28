@@ -33,7 +33,7 @@ Lets see 🦥
 #### In more concret steps.
 
 - [x] Make a UI.
-- [ ] Code a Frontend.
+- [x] Code a Frontend.
 - [ ] Make Buttons do something.
   - [ ] Make `Chain A Button` do something
   - [ ] Make `Chain B Button` do something
@@ -43,4 +43,13 @@ Lets see 🦥
 
 #### Figma
 
-[Figma Link](https://www.figma.com/file/GLshGEMxcTxy423xP9OG24/Untitled?type=design&node-id=1%3A2&mode=design&t=sX5MFYcgAVUmbXyf-1)
+- [x] [Figma Link](https://www.figma.com/file/GLshGEMxcTxy423xP9OG24/Untitled?type=design&node-id=1%3A2&mode=design&t=sX5MFYcgAVUmbXyf-1)
+
+#### Code Frontend
+
+- [x] `pnpm create vite@latest --template typescript`]
+- [x] make 3 divs. Each div has 1 button & 1 picture. Style them.
+
+#### Local Enviorment ?!
+
+- [ ] ?
