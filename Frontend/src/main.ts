@@ -8,6 +8,8 @@ import { chapter_polkadotJsAdvanced } from "./6-polkadotJsAdvanced.ts";
 import { chapter_frontend } from "./7-frontend.ts";
 import { chapter_frontendPolkadotJs } from "./8-frontendPolkadotJs.ts";
 import { chapter_figmaCss } from "./9-figmaCss.ts";
+import { chapter_xcmTransaction } from "./10-xcmTransaction.ts";
+import { chapter_addAstar } from "./11-addAstar.ts";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
     <h1 style="text-decoration: underline;">Cross Chain Referal Program</h1>
@@ -50,6 +52,10 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
     <div id="chapter-8"></div>
 
     <div id="chapter-9"></div>
+
+    <div id="chapter-10"></div>
+
+    <div id="chapter-11"></div>
 `;
 
 chapter_talismann(document.querySelector("#chapter-1")!);
@@ -61,3 +67,5 @@ chapter_polkadotJsAdvanced(document.querySelector("#chapter-6")!);
 chapter_frontend(document.querySelector("#chapter-7")!);
 chapter_frontendPolkadotJs(document.querySelector("#chapter-8")!);
 chapter_figmaCss(document.querySelector("#chapter-9")!);
+chapter_xcmTransaction(document.querySelector("#chapter-10")!);
+chapter_addAstar(document.querySelector("#chapter-11")!);
