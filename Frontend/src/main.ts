@@ -40,7 +40,7 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
     </div>
 
     <br>
-    <div id="chapter-1"></div>
+    <div id="chapter-1" ></div>
 
     <div id="chapter-2"></div>
 
