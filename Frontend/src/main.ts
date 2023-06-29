@@ -6,6 +6,7 @@ import { chapter_polkadotJsAppSimple } from "./4-polkadotJsSimple.ts";
 import { chapter_acquireUnderstanding } from "./5-acquireUnderstanding.ts";
 import { chapter_polkadotJsAdvanced } from "./6-polkadotJsAdvanced.ts";
 import { chapter_frontend } from "./7-frontend.ts";
+import { chapter_frontendPolkadotJs } from "./8-frontendPolkadotJs.ts";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
     <h1 style="text-decoration: underline;">Cross Chain Referal Program</h1>
@@ -44,6 +45,8 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
     <div id="chapter-6"></div>
 
     <div id="chapter-7"></div>
+
+    <div id="chapter-8"></div>
 `;
 
 chapter_talismann(document.querySelector("#chapter-1")!);
@@ -53,3 +56,4 @@ chapter_polkadotJsAppSimple(document.querySelector("#chapter-4")!);
 chapter_acquireUnderstanding(document.querySelector("#chapter-5")!);
 chapter_polkadotJsAdvanced(document.querySelector("#chapter-6")!);
 chapter_frontend(document.querySelector("#chapter-7")!);
+chapter_frontendPolkadotJs(document.querySelector("#chapter-8")!);
