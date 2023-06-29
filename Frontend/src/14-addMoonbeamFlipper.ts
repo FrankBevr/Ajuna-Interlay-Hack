@@ -1,9 +1,13 @@
 export function chapter_addMoonbeamFlipper(element: HTMLDivElement) {
   element.innerHTML = `
-    <h3>Add Moonbeam and create Flipper Contract</h3>
-    1. Write an Flipper
-    2. Deploy an Flipper
-    3. Call Smart Contract
-    4. Call Smart contract in frontend
+    <h3>Chapter 14 - Add Moonbeam & create Flipper Contract</h3>
+    <div class="list">
+      <ol>
+        <li>Write an Flipper</li>
+        <li>Deploy an Flipper</li>
+        <li>Call Smart Contract</li>
+        <li>Call Smart contract in frontend</li>
+      </ol>
+    </div>
   `;
 }
