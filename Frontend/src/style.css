@@ -1,9 +1,13 @@
 @font-face {
-  font-family: myFirstFont;
+  font-family: Unbounded-bold;
   src: url(/unbounded/TTF/Unbounded-Bold.ttf);
 }
+@font-face {
+  font-family: Unbounded-extra-light;
+  src: url(/unbounded/TTF/Unbounded-extra-light.ttf);
+}
 :root {
-  font-family: myFirstFont;
+  font-family: Unbounded-bold;
   line-height: 1.5;
 
   color-scheme: light dark;
@@ -17,10 +21,20 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #222;
 }
 
 h1 {
   font-size: 3.2em;
+  line-height: 1.1;
+}
+h2 {
+  -webkit-text-stroke-width: 0px;
+}
+h3 {
+  font-size: 2.4em;
   line-height: 1.1;
 }
 
@@ -32,18 +46,24 @@ h1 {
 }
 .container {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .container img {
   width: 500px;
   height: 500px;
 }
 .container button {
-  font-family: myFirstFont;
+  font-family: Unbounded-bold;
   background-color: #ff5001;
   border: none;
   font-size: 50px;
   width: 500px;
   height: 500px;
+  color: black;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #222;
 }
 .container button:hover {
   background-color: #ef4000;
@@ -69,4 +89,12 @@ h1 {
   background-image: url(/moonbeam-logo.png);
   background-repeat: no-repeat;
   background-size: auto;
+}
+.list {
+  text-align: left;
+  font-family: Unbounded-extra-light;
+  font-size: 1.75em;
+  display: flex;
+  justify-content: center;
+  -webkit-text-stroke-width: 0px;
 }

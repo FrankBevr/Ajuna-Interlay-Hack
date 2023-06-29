@@ -1,10 +1,15 @@
 export function chapter_talismann(element: HTMLButtonElement) {
   element.innerHTML = `
     <h3>Chapter 1 - Talisman</h3>
-    1. Download Talisman
-    2. Go To Transfer 
-    3. Transfer KSM to Basilisks
-    4. Make screenshot of Transaction Data
-    5. Make a screenshot of Subscan Data
+<div class="list">
+<ol>
+<li>Download Talisman</li>
+<li>Go To Transfer </li>
+<li>Transfer KSM to Basilisks</li>
+<li> Make screenshot of Transaction Data</li>
+<li>Make screenshot of Transaction Data</li>
+<li>Make a screenshot of Subscan Data</li<
+</ol>
+</div>
     `;
 }

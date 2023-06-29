@@ -18,7 +18,7 @@ import { chapter_thinkMore } from "./16-thinkMore.ts";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
     <h1 style="text-decoration: underline;">Cross Chain Referal Program</h1>
-    <h2>Buy one,<br> get one for Free</h2>
+    <h2>Buy one, get one for Free</h2>
     <div class="container">
       <img src="/buyOne.jpg"/>
         <button class="astar">Buy NFT on Astar</button>
@@ -86,7 +86,7 @@ chapter_figmaCss(document.querySelector("#chapter-9")!);
 chapter_xcmTransaction(document.querySelector("#chapter-10")!);
 chapter_addAstar(document.querySelector("#chapter-11")!);
 chapter_contract(document.querySelector("#chapter-12")!);
-chapter_callContract(document.querySelector("#chapter-13")!)
-chapter_addMoonbeamFlipper(document.querySelector("#chapter-14")!)
+chapter_callContract(document.querySelector("#chapter-13")!);
+chapter_addMoonbeamFlipper(document.querySelector("#chapter-14")!);
 chapter_makeTwoXCM(document.querySelector("#chapter-15")!);
 chapter_thinkMore(document.querySelector("#chapter-16")!);
