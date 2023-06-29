@@ -1,8 +1,12 @@
 export function chapter_contract(element: HTMLDivElement) {
   element.innerHTML = `
-    <h3>Contract</h3>
-    1. Write an NFT
-    2. Deploy an NFT
-    3. Call Smart Contract
+    <h3>Chapter 12 - Contract</h3>
+    <div class="list">
+      <ol>
+        <li>Write an NFT</li>
+        <li>Deploy an NFT</li>
+        <li>Call Smart Contract</li>
+      </ol>
+    </div>
   `;
 }
