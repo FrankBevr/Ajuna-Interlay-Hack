@@ -1,5 +1,5 @@
 import "./style.css";
-// import { setupCounter } from './counter.ts'
+import { chapter_talismann } from "./1-talisman.ts";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
     <h1 style="text-decoration: underline;">Cross Chain Referal Program</h1>
@@ -23,6 +23,9 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
       <img src="/wow.jpg"/>
       <button style="">Wow, <br> explain me whats happening</button>
     </div>
+
+    <br>
+    <div id="chapter-1"></div>
 `;
 
-// setupCounter(document.querySelector<HTMLButtonElement>('#counter')!)
+chapter_talismann(document.querySelector("#chapter-1")!);
