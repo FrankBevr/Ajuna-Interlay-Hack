@@ -1,0 +1,166 @@
+Road to success
+
+Chapter 1 Talisman
+
+1. Download Talisman
+
+2. Go To Transfer 
+
+3. Transfer KSM to Basilisks
+
+4. Make screenshot of Transaction Data
+
+5. Make a screenshot of Subscan Data
+
+Chapter 2 Substrate
+
+1. Go to substrate docs
+
+2. Simulate a network
+
+3. Transfer a Token from A to B as Alice and Bob
+
+Chapter 3 Polkadot JS app
+
+1. Go to PolkadotJs Apps
+
+2. Craft the XCM Transaction via extrinsic Call
+
+3. Call it
+
+Chapter 4 polkadotJs - Simple
+
+1. Create a new typescript file.
+
+2. Connect to Polkadot Local Node
+
+3. Send 1 dot from alice to bob
+
+4. Connect to Karua
+
+5. Send 1 aca from alice to bob
+
+6. Be happy. drink a coffee
+
+Chapter 5 Acquire understanding
+
+1. Go to Github
+
+2. Search for xcm Format
+
+3. Read the README.md
+
+4. Got to PolkadotJs Docs
+
+5. Search for xcm Pallet
+
+7. Read the it.
+
+Chapter 6 PolkadotJs - Advanced
+
+1. Create a Typescript File
+
+2. Connect to Polkadot
+
+3. Call something on xcm pallet.
+
+4. Call send with the correct params.
+
+5. Call if recieved with correct params.
+
+6. Call it day. Be hppy. Go to sleep.
+
+Chapter 7 Frontend
+
+1. Create a index.html
+
+2. Create a div. 
+
+3. Give the div, the id of app.
+
+4. Create a typescript. Call it main.ts
+
+5. Write a function, called mount. It takes the div with id of app and changes the innerHTML to <h1>Hello World</h1>.
+
+6. Include main.ts via script tag in your html file.
+
+7. Serve your html via vite. 
+
+8. Go to the given localhost
+
+9. You see Hello World.
+
+10. Create a style.css
+
+11. Select your h1 and change the color to red.
+
+12. Include style.css via link tag to your html. Now you see a red Hello World.
+
+13. change the inner html to a div with an id of balanceof
+
+14. Create function which takes a div as an Input and changes the inner html to a <h1>Hello Component</h1>
+
+15. Hurei, now we have our simple compent setup.
+
+Chapter 8 Frontend - PolkadotJS
+
+1. initilise npm
+
+2. install polkdot api
+
+3. Create a new typescript file. Call it balance.ts .
+
+4. Import Websocket and API Promise in your ts file.
+
+5. Go to polkdot JS App, connect again to your local node and call your Balance. 
+
+6. Go to balance.ts and use the api to call balance of.
+
+7. Take the recieved number and show throw it in your html.
+
+8. go to main.ts and import your balance.ts component.
+
+9. Create a new div with the id of balance 
+
+10. Call the balannce function and git it the div.
+
+11. Hurei, Now we have a barebone setup.
+
+Chapter 9 Figma + CSS
+
+1. create a frame
+
+2. Give it nice background color.
+
+3. create another frame
+
+4. give it another nice background color.
+
+5. duplicate it 3 times.
+
+6. Thats our UI.
+
+7. in main.ts create 3 divs, with class card.
+
+8. Go to style.css and give the body the given background color
+
+9. Select card class nd set the background color to your color.
+
+10. Align them
+
+11. Nice now we have UI Idea, HTML&JS Setup and a Polkadot Connection Workflow.
+
+12. If you ever get frustated, make rectancles. Save place.
+
+Chapter 10 XCM Transaction.
+
+1. create a new typescript file. Call it xcm.ts
+
+2. Connect to your local node.
+
+3. Create a function with takes a div as an input
+
+4. If bu
+
+
+
