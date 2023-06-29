@@ -50,6 +50,14 @@ Lets see 🦥
 - [x] `pnpm create vite@latest --template typescript`]
 - [x] make 3 divs. Each div has 1 button & 1 picture. Style them.
 
-#### Local Enviorment ?!
+#### Local Enviorment
 
-- [ ] ?
+> This will not happen, change directions. Got errors for zombienet.
+
+- [ ] Simulate a Parachain Network
+
+#### Change Scope, Idea
+
+The goal is to make a Roadmap of success.
+
+My road to Buy one get two.
