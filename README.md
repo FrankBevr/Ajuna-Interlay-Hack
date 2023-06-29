@@ -24,6 +24,36 @@ The goal is to make something on one chain and do something on another chain.
 Learn some XCM implentation meanwhile would be amazing, but could be lend out of scope.
 Lets see 🦥
 
+#### Added after Deadline:
+
+Summary:
+
+- [x] Figure out how to make one XCM Transaction
+- [x] Figure out a simplistic Layout for proof the concept.
+- [x] Code the concept out.
+- [ ] Replicate it thruh polkadot JS
+- [x] Change Plan. 
+- [x] Write Steps down to do, to make something happen.
+- [x] Style it.
+
+Links:  
+
+[Youtube - Pitch](https://youtu.be/JOpOX-49HDE)  
+[Github](https://github.com/FrankBevr/Ajuna-Interlay-Hack)   
+[Figma](https://www.figma.com/file/GLshGEMxcTxy423xP9OG24/Untitled?type=design&node-id=0%3A1&mode=design&t=ivofWbyBTRLsn3WT-1)  
+[Deployment](https://649d6ce1eb16a76807ed55d2--serene-paletas-1af44f.netlify.app/)
+
+---
+
+```
+__   __        _               _             
+\ \ / /__  ___| |_ ___ _ __ __| | __ _ _   _ 
+ \ V / _ \/ __| __/ _ \ '__/ _` |/ _` | | | |
+  | |  __/\__ \ ||  __/ | | (_| | (_| | |_| |
+  |_|\___||___/\__\___|_|  \__,_|\__,_|\__, |
+                                       |___/ 
+```
+
 #### Currently I think about:
 
 1. Mint something on Chain A
